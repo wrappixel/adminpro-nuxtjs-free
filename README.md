@@ -12,7 +12,7 @@ Free NuxtJs 3 + Vuetify3 Admin Dashboard Template
 </a>
 
 Adminpro Free NuxtJs Admin Template is highly customizable and free dashboard template based on vuetify js.
-This template is based on Nuxt3 & Vuetify 3 based. so it is seo freindly + hybrid rendring + powerfull admin dashbaord template. it comes with handly features like table, charts, buttons, and profile example added. You can check the pro version of MaterialPro NuxtJs Admin Template for more details.
+This template is based on Nuxt3 & Vuetify 3 based. so it is seo freindly + hybrid rendring + powerfull admin dashbaord template. it comes with handly features like table, charts, buttons, and profile example added. You can check the pro version of AdminPro NuxtJs Admin Template for more details.
 
 ## What do I get bundled with Free Version?
 
@@ -95,14 +95,14 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
 
 <!-- ## License -->
 
-<!-- MaterialPro Free NuxtJs Admin Template is highly customizable and free dashboard template based on vuetify js. This template is based on Nuxt3 & Vuetify 3 based. so it is seo freindly + hybrid rendring + powerfull admin dashbaord template. it comes with handly features like table, charts, buttons, and tables example added. -->
+<!-- Adminpro Free NuxtJs Admin Template is highly customizable and free dashboard template based on vuetify js. This template is based on Nuxt3 & Vuetify 3 based. so it is seo freindly + hybrid rendring + powerfull admin dashbaord template. it comes with handly features like table, charts, buttons, and tables example added. -->
 
 ## Why should I upgrade to the pro version?
 
 <a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/"><img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/07/adminpro-nuxtjs.jpg"/></a><br/>
 
 <p>
-   Checkout our premium version of MaterialPro NuxtJs Admin for lots more features and ready to use page templates.<br>
+   Checkout our premium version of Adminpro NuxtJs Admin for lots more features and ready to use page templates.<br>
    <a href="https://adminpro-nuxt3-main.vercel.app/dashboards/minimal">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/">Download</a>
 </p>
 
