@@ -73,8 +73,8 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
   Live Demo: <a href="https://adminpro-free-nuxtjs.netlify.app/" rel="nofollow">https://adminpro-free-nuxtjs.netlify.app/</a>
 </li>
 <li>
-    Download Page: <a href="https://www.wrappixel.com/templates/adminpro-free-nuxtjs-admin-template" rel="nofollow">
-  https://www.wrappixel.com/templates/materialpro-free-nuxtjs-admin-template/</a>
+    Download Page: <a href="https://www.wrappixel.com/templates/adminpro-free-nuxtjs-admin-template/" rel="nofollow">
+  https://www.wrappixel.com/templates/adminpro-free-nuxtjs-admin-template/</a>
 </li>
 <li>
     <a href="https://www.wrappixel.com/templates/wrapkit/#demos" rel="nofollow">WrapKit </a>Complete UI Kit - For Website Projects
