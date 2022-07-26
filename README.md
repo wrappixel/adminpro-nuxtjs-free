@@ -1,22 +1,22 @@
-# Materialpro-nuxtjs-free
+# Adminpro-nuxtjs-free
 Free NuxtJs 3 + Vuetify3 Admin Dashboard Template
 
 <!-- Heading of Template -->
 <h1>
-  <a href="https://materialpro-free-nuxtjs.netlify.app/">MaterialPro Free NuxtJs Admin Template</a>
+  <a href="https://materialpro-free-nuxtjs.netlify.app/">Adminpro Free NuxtJs Admin Template</a>
 </h1>
 
 <!-- Main image of Template -->
-<a target="_blank" href="https://www.wrappixel.com/wp-content/uploads/edd/2022/07/materialpro-nuxtjs-free.jpg">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/07/materialpro-nuxtjs-free.jpg" />
+<a target="_blank" href="https://www.wrappixel.com/wp-content/uploads/2022/07/adminpro-nuxt3-free.jpg">
+  <img src="https://www.wrappixel.com/wp-content/uploads/2022/07/adminpro-nuxt3-free.jpg" />
 </a>
 
-MaterialPro Free NuxtJs Admin Template is highly customizable and free dashboard template based on vuetify js.
+Adminpro Free NuxtJs Admin Template is highly customizable and free dashboard template based on vuetify js.
 This template is based on Nuxt3 & Vuetify 3 based. so it is seo freindly + hybrid rendring + powerfull admin dashbaord template. it comes with handly features like table, charts, buttons, and profile example added. You can check the pro version of MaterialPro NuxtJs Admin Template for more details.
 
 ## What do I get bundled with Free Version?
 
-The free version MaterialPro Angular 13 Lite provides you with a library consisting of:
+The free version Adminpro NuxtJs Free Template provides you with a library consisting of:
 
 <ul>
 <li>SaSS Base CSS</li>
@@ -43,23 +43,23 @@ The free version MaterialPro Angular 13 Lite provides you with a library consist
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-bootstrap-admin-y.jpg" alt="MaterialPro Template  Bootstrap" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/adminpro/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-bootstrap-admin-template-y.jpg" alt="Adminpro Template  Bootstrap" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-react-admin-y.jpg" alt="MaterialPro Template  React" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/adminpro-react-redux-admin/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-react-dashboard-y.jpg" alt="Adminpro Template  React" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/05/materialpro-vuejs-dashboard-template-20.jpg" alt="MaterialPro Template  Vue" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/adminpro-vuetify-dashboard/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/10/adminpro-vuetify-dasboard-template-y.jpg" alt="Adminpro Template  Vue" style="max-width:150px;">
   </a>
 </td>
   <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-angular-admin-y.jpg" alt="MaterialPro Template  Angular" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/adminpro-angular-dashboard/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-angular-dashboard-y.jpg" alt="Adminpro Template  Angular" style="max-width:150px;">
   </a>
 </td>
 </tr>
@@ -70,10 +70,10 @@ The free version MaterialPro Angular 13 Lite provides you with a library consist
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://materialpro-free-nuxtjs.netlify.app/" rel="nofollow">https://materialpro-free-nuxtjs.netlify.app/</a>
+  Live Demo: <a href="https://adminpro-free-nuxtjs.netlify.app/" rel="nofollow">https://adminpro-free-nuxtjs.netlify.app/</a>
 </li>
 <li>
-    Download Page: <a href="https://www.wrappixel.com/templates/materialpro-free-nuxtjs-admin-template/" rel="nofollow">
+    Download Page: <a href="https://www.wrappixel.com/templates/adminpro-free-nuxtjs-admin-template" rel="nofollow">
   https://www.wrappixel.com/templates/materialpro-free-nuxtjs-admin-template/</a>
 </li>
 <li>
@@ -99,16 +99,16 @@ The free version MaterialPro Angular 13 Lite provides you with a library consist
 
 ## Why should I upgrade to the pro version?
 
-<a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/"><img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/07/materialpro-nuxtjs.jpg"/></a><br/>
+<a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/"><img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/07/adminpro-nuxtjs.jpg"/></a><br/>
 
 <p>
    Checkout our premium version of MaterialPro NuxtJs Admin for lots more features and ready to use page templates.<br>
-   <a href="https://materialpro-nuxtjs-main.netlify.app/dashboards/analytical">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/">Download</a>
+   <a href="https://adminpro-nuxt3-main.vercel.app/dashboards/minimal">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/">Download</a>
 </p>
 
-The pro version of MaterialPro NuxtJs Admin Template incorporates over 60+ page templates along with four distinctive colour scheme,4 unique demos, and multiple user-interface components.
+The pro version of AdminPro NuxtJs Admin Template incorporates over 60+ page templates along with four distinctive colour scheme,4 unique demos, and multiple user-interface components.
 
-The key features of WrapPixel's MaterialPro NuxtJs Admin Template include:
+The key features of WrapPixel's AdminPro NuxtJs Admin Template include:
 
 6 Colour Schemes - More than four predefined colour schemes.<br><br>
 Over 2000 Font Icons - Over 2000 unique and attractive font icons.<br><br>
@@ -117,7 +117,7 @@ Calendar Design - Calendar functionality in attractive and interesting designs.<
 Detailed Documentation - Detailed documentation makes the template convenient and easy to use.<br>
 
 <ul>
-<li>6+ unique and attractive dashboards</li>
+<li>4+ unique and attractive dashboards</li>
 <li>Open source web application</li>
 <li>Four distinctive live demos</li>
 <li>6+ predefined colour skins</li>
