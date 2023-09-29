@@ -1,0 +1,47 @@
+.rtl {
+  @import "./rtl-components";
+  @import "./rtl-spacing";
+  
+  ol,
+  ul {
+    padding: 0px;
+  }
+  .me-3 {
+    margin-left: 1rem;
+    margin-right: 0px !important;
+  }
+  .me-2 {
+    margin-left: 0.5rem;
+    margin-right: 0px !important;
+  }
+  .ms-3 {
+    margin-left: 0px !important;
+    margin-right: 1rem;
+  }
+  .ms-auto {
+    margin-right: auto;
+    margin-left: unset !important;
+  }
+  .me-auto {
+    margin-right: unset !important;
+    margin-left: auto;
+  }
+
+  .customizerSidebar {
+    left: 0px;
+    right: auto;
+    margin-right: 0px;
+    margin-left: -260px;
+    .custombtn {
+      margin-left: 0px;
+      margin-right: -58px;
+      border-radius: 0px 5px 5px 0px;
+    }
+    &.showCustomizer {
+      margin-left: 0px;
+    }
+  }
+  .sidebarArea .nav-link {
+    padding: 12px 12px 12px 5px;
+  }
+}

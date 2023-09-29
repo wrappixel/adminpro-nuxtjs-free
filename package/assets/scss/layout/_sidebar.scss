@@ -1,47 +1,264 @@
-.scrollnavbar {
-  height: calc(100vh - 70px);
-  overflow: auto;
-  .v-list--one-line {
-    .v-list-group__items .v-list-item,
-    .v-list-item {
-      padding-inline-start: 12px !important;
-      padding-left: 12px;
-      opacity: 0.6;
-      .v-list-item-title {
-        font-size: 14px;
+/*This is for the logo*/
+.v-navigation-drawer__content{
+    border-right: 1px solid rgb(var(--v-theme-borderColor));
+  }
+  .leftSidebar {
+      box-shadow: 1px 0 20px #00000014 !important;
+  
+      .logo {
+          padding-left: 7px;
       }
-    }
-    .v-list-item:hover {
-      opacity: 1;
-    }
-    .v-list-group__items .v-list-item .v-avatar.v-avatar--density-default,
-    .v-avatar.v-avatar--density-default {
-      width: 30px;
-      height: 30px;
-      line-height: 24px;
-    }
-    .v-list-item--active {
-      border-left: 3px solid rgb(var(--v-theme-primary));
-      opacity: 1;
-      .v-avatar {
-        color: inherit;
+  
+      .profile-text {
+          height: 0;
       }
-    }
+  
+      .mini-icon {
+          display: none;
+      }
+  
+      .mini-text {
+          display: block;
+      }
+
+      .sidebar_profile{
+        .v-list-item__prepend{
+            margin-inline-end: 0px !important;
+        }
+      }
+      .profile-name {
+          background: rgba(0, 0, 0, 0.5);
+  
+          h5 {
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+          }
+      }
   }
-  .profile {
-    background: url("/images/background/user-info.jpg") no-repeat;
-    .profile-pic {
-      padding: 30px 15px;
-    }
+  
+  .verticalLayout {
+      .logo {
+          width: 250px;
+  
+          @media screen and (max-width:1024px) {
+              width: auto;
+          }
+      }
   }
-  .profile-name {
-    background: rgba(0, 0, 0, 0.5);
-    h5 {
-      padding: 10px;
-      color: white;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
-    }
+  
+  /*This is for the Vertical sidebar*/
+  .scrollnavbar {
+      height: 100%;
+  
+      .userbottom {
+          position: fixed;
+          bottom: 0px;
+          width: 100%;
+      }
+  
+      .smallCap {
+          padding: 3px 12px 12px 0px !important;
+          font-size: 0.875rem;
+          font-weight: 500;
+          margin-top: 24px;
+          color: rgb(var(--v-theme-textPrimary));
+  
+          &:first-child {
+              margin-top: 0 !important;
+          }
+      }
+  
+      .v-list--one-line {
+          .v-list-item{
+              opacity: .6;
+          }
+          .v-list-item--active {
+              opacity: 1;
+          }
+      }
+  
+      /*General Menu css*/
+      .v-list-group__items .v-list-item,
+      .v-list-item {
+          border-radius: $border-radius-root;
+          padding-inline-start: calc(12px + var(--indent-padding) / 10) !important;
+          opacity: .6;
+          margin: 0 0 2px;
+  
+          &:hover {
+              color: rgb(var(--v-theme-primary));
+              opacity: 1;
+          }
+  
+          .v-list-item__prepend {
+              margin-inline-end: 13px;
+          }
+  
+          .v-list-item__append {
+              font-size: 0.875rem;
+  
+              .v-icon {
+                  margin-inline-start: 13px;
+              }
+          }
+  
+          .v-list-item-title {
+              font-size: 0.875rem;
+          }
+      }
+  
+      .sidebar_profile{
+          .v-list-group__items .v-list-item,
+          .v-list-item {
+              opacity: 1;
+              &:hover {
+                  color: inherit;
+                  opacity: 1;
+              }
+          }
+      }
+      
+  
+      /*This is for the dropdown*/
+      .v-list {
+          color: rgb(var(--v-theme-textSecondary));
+          .v-list-item--active > .v-list-item__overlay{
+              opacity: 0.0;
+          }
+  
+          >.v-list-item.v-list-item--active,
+          .v-list-item--active>.v-list-item__overlay {
+              background: rgb(var(--v-theme-primary));
+              color: white;
+          }
+  
+          >.v-list-group {
+              position: relative;
+  
+              >.v-list-item--active,
+              >.v-list-item--active:hover {
+                  background: rgb(var(--v-theme-primary));
+                  color: white;
+              }
+  
+              .v-list-group__items .v-list-item.v-list-item--active,
+              .v-list-group__items .v-list-item.v-list-item--active>.v-list-item__overlay {
+                  background: transparent;
+                  color: rgb(var(--v-theme-primary));
+                  opacity: 1;
+              }
+          }
+      }
+  
+  
   }
-}
+  
+  .v-navigation-drawer--rail {
+  
+      .scrollnavbar .v-list .v-list-group__items,
+      .hide-menu {
+          opacity: 1;
+      }
+  
+      .leftPadding {
+          margin-left: 0px;
+      }
+  }
+  
+  @media only screen and (min-width: 1170px) {
+      .mini-sidebar {
+          .logo {
+              width: 40px;
+              overflow: hidden;
+              padding-left: 0;
+          }
+  
+          .profile-logout,
+          .profile-text {
+              opacity: 0;
+              width: 0;
+  
+          }
+  
+          .sidebarchip.hide-menu{
+              opacity: 0;
+          }
+  
+          .scrollnavbar {
+              .smallCap {
+                  padding: 3px 12px 12px 12px !important;
+              }
+          }
+  
+          .mini-icon {
+              display: block;
+          }
+  
+          .mini-text {
+              display: none;
+          }
+          .v-list-group__items{
+              .iconClass{
+                  position: relative;
+                  left: -2px;
+              }
+          }  
+  
+          .leftSidebar:hover {
+              box-shadow: $box-shadow !important;
+  
+              .mini-icon {
+                  display: none;
+              }
+  
+              .mini-text {
+                  display: block;
+              }
+  
+              .profile-logout,
+              .profile-text {
+                  opacity: 1;
+                  width: auto;
+  
+              }
+  
+              .scrollnavbar {
+                  .smallCap {
+                      padding: 3px 12px 12px 0px !important;
+                  }
+              }
+  
+              .v-list-group__items{
+                  .iconClass{
+                      position: relative;
+                      left: 0px;
+                  }
+              }
+  
+              .sidebarchip.hide-menu{
+                  opacity: 1;
+              }
+          }
+  
+          .v-navigation-drawer--expand-on-hover:hover {
+              .logo {
+                  width: 100%;
+              }
+  
+              .v-list .v-list-group__items,
+              .hide-menu {
+                  opacity: 1;
+              }
+          }
+      }
+  }
+  
+  // scrollbar 
+  .ps__rail-y {
+      z-index: 9;
+  }
+
+  .v-navigation-drawer--left{
+    border-right: 0  !important;
+  }

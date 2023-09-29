@@ -1,16 +1,19 @@
-import { defineNuxtConfig } from "nuxt";
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+import vuetify from "vite-plugin-vuetify";
 export default defineNuxtConfig({
   ssr: false,
-  build: {
-    extractCSS: false,
-    transpile: ["vuetify"],
+  typescript: {
+    shim: false,
   },
-  css: ["@/assets/scss/style.scss"],
-  vite: {
-    define: {
-      "process.env.DEBUG": false,
+  app: {
+    head: {
+      title:
+        "AdminPro Free Nuxt 3 Dashboard",
     },
   },
+  nitro: {
+    serveStatic: true,
+  },
+  sourcemap: { server: false, client: false },
+  devServerHandlers: [],
 });

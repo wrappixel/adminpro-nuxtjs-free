@@ -1,0 +1,178 @@
+.sidebarArea {
+  flex-shrink: 0;
+  width: $sidebarWidth;
+
+  .sidebarBox {
+    height: 100%;
+    width: $sidebarWidth;
+    position: relative;
+    transition: 0.1s ease-in;
+    z-index: 2;
+  }
+  .fixedSidebar {
+    position: fixed;
+  }
+  .navCaption {
+    font-size: 0.775rem;
+    padding: 5px 15px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .nav-link {
+    color: inherit;
+    opacity: 0.65;
+    display: flex;
+    padding: 12px 5px 12px 12px;
+    align-items: center;
+    white-space: nowrap;
+    svg {
+      width: 21px;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .lightText {
+    color: $white;
+  }
+  .activeLink .nav-link {
+    opacity: 1;
+  }
+  .subMenu {
+    padding: 0;
+    list-style: none;
+    transition: 0.1s ease-in;
+    .nav-link {
+      padding: 9px 15px;
+    }
+    .sidebarIcon {
+      visibility: hidden;
+    }
+  }
+}
+.sidebarOverlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+}
+.horizontalNav {
+  position: relative;
+  z-index: 1;
+
+  .nav-item {
+    position: relative;
+  }
+  .nav-link {
+    color: inherit;
+    opacity: 0.65;
+    display: flex;
+    padding: 15px 12px;
+    transition: 0.1s ease-in;
+    svg {
+      width: 21px;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .firstDD {
+    .nav-link {
+      padding: 9px 15px;
+      &:hover {
+        padding-left: 20px;
+      }
+    }
+    svg {
+      width: 18px;
+    }
+  }
+  .lightText {
+    color: $white;
+  }
+  .activeLink .nav-link {
+    opacity: 1;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .horizontalNav {
+    &.fixedSidebar {
+      position: fixed;
+      width: 100%;
+    }
+
+    .firstDD {
+      position: absolute;
+      min-width: 250px;
+      padding: 10px;
+      display: none;
+      box-shadow: $box-shadow;
+      border-radius: $border-radius;
+    }
+    .nav-item:hover .firstDD {
+      display: block;
+    }
+  }
+  .HsidebarFixed {
+    padding-top: 64px;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .sidebarArea {
+    position: fixed;
+    height: 100%;
+    z-index: 2;
+    margin-left: -$sidebarWidth;
+    transition: 0.2s ease-in;
+    &.showSidebar {
+      margin-left: 0px;
+    }
+  }
+  .horizontalNav {
+    width: $sidebarWidth;
+    margin-left: -$sidebarWidth;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    transition: 0.1s ease-in;
+    &.showSidebar {
+      margin-left: 0px;
+    }
+    .firstDD {
+      display: none;
+      &.showfirstDD {
+        display: block;
+      }
+    }
+    .nav-link,
+    .nav-item {
+      width: 100%;
+    }
+    .nav-item:focus .firstDD {
+      display: block;
+    }
+  }
+}
+@include media-breakpoint-up(lg) {
+  .isMiniSidebar {
+    .sidebarArea {
+      width: $miniSidebarWidth;
+      .sidebarBox {
+        width: $miniSidebarWidth;
+        &:hover {
+          width: $sidebarWidth;
+          .hide-mini {
+            display: block;
+          }
+        }
+        .hide-mini {
+          display: none;
+        }
+      }
+    }
+  }
+}

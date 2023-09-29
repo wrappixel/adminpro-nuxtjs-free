@@ -1,0 +1,229 @@
+// Checkbox
+.form-check {
+  padding-left: 0;
+  padding-right: 1.75em;
+  .form-check-input {
+    float: right;
+    margin-left: 0;
+    margin-right: -1.75em;
+  }
+}
+
+.form-select {
+  padding: 0.375rem 0.75rem 0.375rem 1.75rem;
+  background-position: left 0.35rem center;
+}
+
+.form-check-label::after,
+.form-check-label::before {
+  left: auto;
+  right: 0px;
+}
+
+.form-check-label::after,
+.form-check-label::before {
+  left: auto;
+  right: -25px;
+}
+
+// Breadcrumb
+.breadcrumb-item + .breadcrumb-item::before {
+  float: right;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-left: 0.5rem;
+  padding-right: 0;
+}
+
+// Form Select
+.form-select {
+  padding: 0.375rem 0.75rem 0.375rem 1.75rem;
+  background-position: left 0.75rem center;
+}
+
+//
+// List
+//
+.list-group {
+  padding: 0px;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+.custom-file-label {
+  left: auto;
+  right: 0;
+  width: 100%;
+  &::after {
+    right: auto;
+    left: 0;
+  }
+}
+
+// pagination
+.navbar-nav,
+.nav,
+.list-unstyled,
+.pagination {
+  padding-right: 0;
+}
+
+// Input groups
+.input-group {
+  > .form-control,
+  > .form-select {
+    &:not(:last-child) {
+      @include border-start-radius(0);
+    }
+    &:not(:first-child) {
+      @include border-end-radius(0);
+    }
+  }
+
+  // Custom file inputs have more complex markup, thus requiring different
+  // border-radius overrides.
+  > .custom-file {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) .custom-file-label,
+    &:not(:last-child) .custom-file-label::after {
+      @include border-start-radius(0);
+    }
+    &:not(:first-child) .custom-file-label {
+      @include border-end-radius(0);
+    }
+  }
+  $validation-messages: '';
+  > :not(:first-child):not(.dropdown-menu)#{$validation-messages} {
+    margin-right: -$input-border-width;
+    margin-left: 0;
+    @include border-start-radius(0);
+  }
+}
+
+.input-group > .input-group-prepend > .btn,
+.input-group > .input-group-prepend > .input-group-text,
+.input-group > .input-group-append:not(:last-child) > .btn,
+.input-group > .input-group-append:not(:last-child) > .input-group-text,
+.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > .input-group-text:not(:last-child),
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3) {
+  @include border-end-radius(0.25rem);
+  @include border-start-radius(0);
+}
+
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.input-group > .input-group-prepend:not(:first-child) > .btn {
+  @include border-end-radius(0);
+}
+
+// .input-group .form-control:not(:first-child),
+// .input-group .form-control:not(:last-child) {
+//   border-radius: 0 !important;
+// }
+
+.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child),
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  @include border-start-radius(0.25rem);
+  @include border-end-radius(0);
+}
+
+.form-floating > label {
+  right: 0;
+  left: auto;
+}
+
+.form-switch {
+  .form-check-input {
+    margin-left: 8px;
+  }
+}
+
+// Accordian
+.accordion-button::after {
+  margin-left: unset;
+  margin-right: auto;
+}
+
+// Modal
+.modal-header .btn-close {
+  margin: -0.5rem auto -0.5rem -0.5rem;
+}
+
+// Alert
+
+.alert-dismissible .btn-close {
+  left: 0;
+  right: auto;
+}
+// Toast
+.toast-header .btn-close {
+  margin-left: -0.375rem;
+  margin-right: 0.75rem;
+}
+
+.toast {
+  .btn-close.ms-auto {
+    margin-left: 8px !important;
+  }
+}
+
+// Dropdown
+.dropdown-toggle::after {
+  margin-right: 0.255em;
+  margin-left: 0;
+}
+
+.topbar .ddWidth.dropdown-menu {
+    left: unset !important;
+    right: 0;
+}
+
+.topbar .profile-dd.dropdown-menu {
+  left: 0 !important;
+}
+
+.btn-group {
+  // Prevent double borders when buttons are next to each other
+  > .btn:not(:first-child),
+  > .btn-group:not(:first-child) {
+    margin-right: -$btn-border-width;
+  }
+
+  // Reset rounded corners
+  > .btn:not(:last-child):not(.dropdown-toggle),
+  > .btn-group:not(:last-child) > .btn {
+    @include border-start-radius(0);
+  }
+
+  // The left radius should be 0 if the button is:
+  // - the "third or more" child
+  // - the second child and the previous element isn't `.btn-check` (making it the first child visually)
+  // - part of a btn-group which isn't the first child
+  > .btn:nth-child(n + 3) {
+    @include border-start-radius(4px);
+  }
+  > .btn-group:not(:first-child) > .btn {
+    @include border-start-radius(4px);
+  }
+
+  > :not(.btn-check) + .btn,
+  > .btn-group:not(:first-child) > .btn {
+    @include border-end-radius(0);
+  }
+}

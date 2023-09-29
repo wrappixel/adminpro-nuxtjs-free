@@ -1,0 +1,68 @@
+{
+  "name": "starter-bt5",
+  "version": "0.1.0",
+  "homepage": "/",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.29.0",
+    "autoprefixer": "10.4.5",
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-icons": "^1.7.0",
+    "history": "^5.0.0",
+    "sass": "^1.52.2",
+    "prop-types": "^15.7.2",
+    "react": "^18.1.0",
+    "react-apexcharts": "^1.3.9",
+    "react-dom": "^18.1.0",
+    "react-feather": "^2.0.9",
+    "react-pro-sidebar": "^0.7.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.0-beta.8",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.0.0",
+    "redux": "^4.1.2",
+    "simplebar-react": "^2.3.6",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.7.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

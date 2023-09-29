@@ -1,0 +1,128 @@
+/*******************/
+// Theme Fonts
+/********************/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+$font-family-sans-serif: "Nunito", sans-serif;
+/*******************/
+// Theme Colors
+/********************/
+$primary: #2962ff;
+$info: #3699ff;
+$danger: #f64e60;
+$success: #0bb7af;
+$warning: #ee9d01;
+$dark: #021a33;
+$light: #07294b;
+$secondary: #001e3c;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "light-primary": #1e446d,
+  "light-success": #155856,
+  "light-info": #046494,
+  "light-warning": #a05a00,
+  "light-danger": #9b0000,
+);
+// scss-docs-start gray-color-variables
+$white: #001e3c !default;
+$gray-100: #001e3c !default;
+$gray-200: #0a2744 !default;
+$gray-300: #2f445a !default;
+$gray-400: #4d6277 !default;
+$gray-500: #66788a !default;
+$gray-600: #808f9e !default;
+$gray-700: #99a5b1 !default;
+$gray-800: #b3bcc5 !default;
+$gray-900: #e6e9ec !default;
+$black: rgba(255, 255, 255, 0.9) !default;
+
+/*******************/
+// Theme Text Contrast
+/********************/
+$min-contrast-ratio: 2;
+$enable-shadows: false !default;
+/*******************/
+// Theme body bg & text color
+/********************/
+$body-bg: $gray-200 !default;
+$body-color: $gray-900 !default;
+$btn-focus-box-shadow: 0;
+
+// heading fonts setting
+$h1-font-size: 36px !default;
+$h2-font-size: 30px !default;
+$h3-font-size: 24px !default;
+$h4-font-size: 18px !default;
+$h5-font-size: 16px !default;
+$h6-font-size: 14px !default;
+
+/*******************/
+// Theme common variable
+/********************/
+$border-radius: 0.3rem !default;
+$box-shadow: 0;
+$headings-font-weight: 600 !default;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$h5-font-size: $font-size-base * 1.1 !default;
+$card-border-width: 0 !default;
+$card-box-shadow: $box-shadow !default;
+$grid-gutter-width: 1.85rem !default;
+
+$input-bg: $white !default;
+/*******************/
+// Theme btn
+/********************/
+$btn-focus-width: 0px;
+body .btn {
+  color: $black;
+  &:hover,
+  &.active,
+  &.disabled,
+  &:focus {
+    color: $black;
+  }
+}
+$btn-box-shadow: none !default;
+
+// Progress bars
+$progress-height: 6px !default;
+
+/*******************/
+// Theme sidebar width
+/********************/
+$sidebarWidth: 260px;
+$sidebartext: #ffffff;
+$sidebartextlight: rgba(255, 255, 255, 0.6);
+$miniSidebarWidth: 80px;
+
+$topbarHeight: 60px;
+
+$dropdown-border-width: 0 !default;
+$dropdown-box-shadow: $box-shadow !default;
+
+.dark .text-dark {color: $black !important;}
+
+
+.dark {
+  .sidebarArea {
+    .sidebarBox {
+      .nav-link,
+      .navCaption {
+        color: #fff;
+      }
+    }
+  }
+  .horizontalNav {
+    .nav-link,
+    .navCaption {
+      color: #fff;
+    }
+  }
+}

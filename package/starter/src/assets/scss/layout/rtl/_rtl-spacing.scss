@@ -1,0 +1,149 @@
+// stylelint-disable declaration-no-important
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .float#{$infix}-start {
+      float: right !important;
+    }
+    .float#{$infix}-end {
+      float: left !important;
+    }
+    .float#{$infix}-none {
+      float: none !important;
+    }
+  }
+}
+
+// Margin and Padding for rtl version
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $prop, $abbrev in (margin: m, padding: p) {
+      @each $size, $length in $spacers {
+        .#{$abbrev}e#{$infix}-#{$size} {
+          #{$prop}-left: $length !important;
+          #{$prop}-right: 0 !important;
+        }
+
+        .#{$abbrev}s#{$infix}-#{$size} {
+          #{$prop}-right: $length !important;
+          #{$prop}-left: 0 !important;
+        }
+      }
+    }
+
+    .me#{$infix}-auto {
+      margin-left: auto !important;
+      margin-right: 0 !important;
+    }
+
+    .ms#{$infix}-auto {
+      margin-right: auto !important;
+      margin-left: 0 !important;
+    }
+  }
+}
+
+// Responsive alignment
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .text#{$infix}-start {
+      text-align: right !important;
+    }
+    .text#{$infix}-end {
+      text-align: left !important;
+    }
+    .text#{$infix}-center {
+      text-align: center !important;
+    }
+  }
+}
+
+//
+// Border
+//
+.border-start {
+  border-right: $border-width solid $border-color !important;
+  border-left: 0 !important;
+}
+.border-end {
+  border-left: $border-width solid $border-color !important;
+  border-right: 0 !important;
+}
+
+.border-end-0 {
+  border-left: 0 !important;
+}
+.border-start-0 {
+  border-right: 0 !important;
+}
+
+//
+// Border-radius
+//
+.rounded-end {
+  border-top-left-radius: $border-radius !important;
+  border-bottom-left-radius: $border-radius !important;
+}
+
+.rounded-start {
+  border-top-right-radius: $border-radius !important;
+  border-bottom-right-radius: $border-radius !important;
+}
+
+.input-group {
+  > .form-control,
+  > .form-select {
+    &:not(:last-child) {
+      @include border-start-radius(0);
+    }
+    &:not(:first-child) {
+      @include border-end-radius(0);
+    }
+  }
+
+  // Custom file inputs have more complex markup, thus requiring different
+  // border-radius overrides.
+  > .custom-file {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) .custom-file-label,
+    &:not(:last-child) .custom-file-label::after {
+      @include border-start-radius(0);
+    }
+    &:not(:first-child) .custom-file-label {
+      @include border-end-radius(0);
+    }
+  }
+}
+
+.input-group > .input-group-prepend > .btn,
+.input-group > .input-group-prepend > .input-group-text,
+.input-group > .input-group-append:not(:last-child) > .btn,
+.input-group > .input-group-append:not(:last-child) > .input-group-text,
+.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
+  @include border-end-radius(0.25rem);
+  @include border-start-radius(0);
+}
+
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.input-group > .input-group-prepend:not(:first-child) > .btn {
+  @include border-end-radius(0);
+}
+
+.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+  @include border-start-radius(0.25rem);
+  @include border-end-radius(0);
+}
