@@ -11,17 +11,15 @@
     "nuxt": "3.7.4"
   },
   "dependencies": {
-    "@mdi/font": "6.5.95",
-    "@tabler/icons": "2.10.0",
+    "@mdi/font": "^6.5.95",
+    "@nuxt/vite-builder": "^3.7.4",
     "apexcharts": "3.36.3",
-    "sass": "1.56.1",
+    "sass": "^1.49.9",
     "vue": "3.3.4",
-    "vue-style-loader": "4.1.3",
     "vue-tabler-icons": "2.9.0",
     "vue3-apexcharts": "1.4.1",
     "vue3-perfect-scrollbar": "1.6.0",
-    "vuetify": "3.3.19",
-    "yup": "0.32.11"
+    "vuetify": "3.3.19"
   },
   "overrides": {
     "nth-check": "2.1.1"
