@@ -34,7 +34,7 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
 <table>
 <thead>
 <tr>
-<th>Bootstrap</th>
+<th>NuxtJs</th>
 <th>React</th>
 <th>Vue</th>
 <th>Angular</th>
@@ -43,23 +43,23 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/adminpro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-bootstrap-admin-template-y.jpg" alt="Adminpro Template  Bootstrap" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-nuxtjs-dashboard-wpn.jpg" alt="Adminpro Template  Bootstrap" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/adminpro-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-react-dashboard-y.jpg" alt="Adminpro Template  React" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/adminpro-react-redux-admin/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-react-dashboard-wpn.jpg" alt="Adminpro Template  React" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/adminpro-vuetify-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/10/adminpro-vuetify-dasboard-template-y.jpg" alt="Adminpro Template  Vue" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/adminpro-vuetify-dashboard/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-vuetify-dashboard-wpn.jpg" alt="Adminpro Template  Vue" style="max-width:150px;">
   </a>
 </td>
   <td>
-  <a href="https://www.wrappixel.com/templates/adminpro-angular-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-angular-dashboard-y.jpg" alt="Adminpro Template  Angular" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/adminpro-angular-dashboard/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-angular-dashboard-wpn.jpg" alt="Adminpro Template  Angular" style="max-width:150px;">
   </a>
 </td>
 </tr>
@@ -99,11 +99,11 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
 
 ## Why should I upgrade to the pro version?
 
-<a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/"><img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/07/adminpro-nuxtjs.jpg"/></a><br/>
+<a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/?ref=33"><img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-nuxtjs-dashboard-wpn.jpg"/></a><br/>
 
 <p>
    Checkout our premium version of Adminpro NuxtJs Admin for lots more features and ready to use page templates.<br>
-   <a href="https://adminpro-nuxt3-main.vercel.app/dashboards/minimal">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/">Download</a>
+   <a href="https://adminpro-nuxt3-main.vercel.app/dashboards/minimal">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/?ref=33">Download</a>
 </p>
 
 The pro version of AdminPro NuxtJs Admin Template incorporates over 60+ page templates along with four distinctive colour scheme,4 unique demos, and multiple user-interface components.

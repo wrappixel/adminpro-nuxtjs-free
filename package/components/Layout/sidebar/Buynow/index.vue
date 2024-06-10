@@ -4,6 +4,6 @@
         <h4 class="font-weight-regular mb-3">Get Template for Free</h4>
         <v-btn  color="secondary" class="mb-2" target="_blank" href="https://www.wrappixel.com/templates/adminpro-free-nuxtjs-admin-template/"
             block>Download Free</v-btn>
-        <v-btn color="primary" target="_blank" href="https://www.wrappixel.com/templates/adminpro-nuxtjs/" block>Check Pro</v-btn>
+        <v-btn color="primary" target="_blank" href="https://www.wrappixel.com/templates/adminpro-nuxtjs/?ref=33" block>Check Pro</v-btn>
     </div>
 </template>
