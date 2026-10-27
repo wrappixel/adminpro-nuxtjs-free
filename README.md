@@ -6,11 +6,6 @@ Free NuxtJs 3 + Vuetify3 Admin Dashboard Template
   <a href="https://materialpro-free-nuxtjs.netlify.app/">Adminpro Free NuxtJs Admin Template</a>
 </h1>
 
-<!-- Main image of Template -->
-<a target="_blank" href="https://www.wrappixel.com/wp-content/uploads/2022/07/adminpro-nuxt3-free.jpg">
-  <img src="https://www.wrappixel.com/wp-content/uploads/2022/07/adminpro-nuxt3-free.jpg" />
-</a>
-
 Adminpro Free NuxtJs Admin Template is highly customizable and free dashboard template based on vuetify js.
 This template is based on Nuxt3 & Vuetify 3 based. so it is seo freindly + hybrid rendring + powerfull admin dashbaord template. it comes with handly features like table, charts, buttons, and profile example added. You can check the pro version of AdminPro NuxtJs Admin Template for more details.
 
@@ -28,44 +23,6 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
 <li>Fully Responsive Pages</li>
 </ul>
 
-
-<!-- Versions of Template -->
-<h2><a id="user-content-versions" class="anchor" aria-hidden="true" href="#versions"></a>Versions</h2>
-<table>
-<thead>
-<tr>
-<th>NuxtJs</th>
-<th>React</th>
-<th>Vue</th>
-<th>Angular</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-  <a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/?ref=33" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-nuxtjs-dashboard-wpn.jpg" alt="Adminpro Template  Bootstrap" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/adminpro-react-redux-admin/?ref=33" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-react-dashboard-wpn.jpg" alt="Adminpro Template  React" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/adminpro-vuetify-dashboard/?ref=33" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-vuetify-dashboard-wpn.jpg" alt="Adminpro Template  Vue" style="max-width:150px;">
-  </a>
-</td>
-  <td>
-  <a href="https://www.wrappixel.com/templates/adminpro-angular-dashboard/?ref=33" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-angular-dashboard-wpn.jpg" alt="Adminpro Template  Angular" style="max-width:150px;">
-  </a>
-</td>
-</tr>
-</tbody>
-</table>
-
 <!-- Resources of Template -->
 <h2>Resources</h2>
 <ul>
@@ -73,11 +30,11 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
   Live Demo: <a href="https://adminpro-free-nuxtjs.netlify.app/" rel="nofollow">https://adminpro-free-nuxtjs.netlify.app/</a>
 </li>
 <li>
-    Download Page: <a href="https://www.wrappixel.com/templates/adminpro-free-nuxtjs-admin-template/" rel="nofollow">
-  https://www.wrappixel.com/templates/adminpro-free-nuxtjs-admin-template/</a>
+    Download Page: <a href="https://wrappixel.com/templates/adminpro-free-nuxtjs-admin-template" rel="nofollow">
+  <b>https://wrappixel.com/templates/adminpro-free-nuxtjs-admin-template</b></a>
 </li>
 <li>
-    <a href="https://www.wrappixel.com/templates/wrapkit/#demos" rel="nofollow">WrapKit </a>Complete UI Kit - For Website Projects
+    <a href="https://wrappixel.com/templates/wrapkit#demos" rel="nofollow"><b>WrapKit</b> </a>Complete UI Kit - For Website Projects
 </li>
 </ul>
 
@@ -85,10 +42,10 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
 <h2>Licensing</h2>
 <ul>
   <li>
-    <p>Copyright 2024 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
+    <p>Copyright 2024 Wrappixel (<a href="https://wrappixel.com" rel="nofollow"><b>https://wrappixel.com</b></a>)</p>
   </li>
   <li>
-    <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
+    <p>Licensed under MIT (<a href="https://wrappixel.com/license"><b>https://wrappixel.com/license</b></a>)</p>
   </li>
 </ul>
 
@@ -99,11 +56,11 @@ The free version Adminpro NuxtJs Free Template provides you with a library consi
 
 ## Why should I upgrade to the pro version?
 
-<a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/?ref=33"><img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/adminpro-nuxtjs-dashboard-wpn.jpg"/></a><br/>
+<a href="https://wrappixel.com/templates/adminpro-nuxtjs?ref=33"><img src="https://images.wrappixel.com/templates/pro/spike/spike-nuxtjs-admin.webp"/></a><br/>
 
 <p>
    Checkout our premium version of Adminpro NuxtJs Admin for lots more features and ready to use page templates.<br>
-   <a href="https://adminpro-nuxt3-main.vercel.app/dashboards/minimal">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/adminpro-nuxtjs/?ref=33">Download</a>
+   <a href="https://adminpro-nuxt3-main.vercel.app/dashboards/minimal">Check Live Preview</a> | <a href="https://wrappixel.com/templates/adminpro-nuxtjs?ref=33"><b>Download</b></a>
 </p>
 
 The pro version of AdminPro NuxtJs Admin Template incorporates over 60+ page templates along with four distinctive colour scheme,4 unique demos, and multiple user-interface components.
@@ -137,19 +94,19 @@ Detailed Documentation - Detailed documentation makes the template convenient an
 
 <ul>
 <li>Once you purchase a WrapPixel's template you can rest easy knowing that you'll be entitled to a free download of all our future updates for lifetime.</li>
-</li>Our dedicated support team is at your service for any queries or clarifications. Simply send us your query at https://www.wrappixel.com/support/ for quick resolution of your concerns.</li>
+</li>Our dedicated support team is at your service for any queries or clarifications. Simply send us your query at <a href="https://wrappixel.com/support"><b>https://wrappixel.com/support</b></a> for quick resolution of your concerns.</li>
 </ul>
 
 <!-- Useful Links of Template -->
 <h2>Useful Links</h2>
 <ul>
-<li><a href="https://www.wrappixel.com/templates/category/admin-template/">Dashboard Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/">Bootstrap Themes</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">Bootstrap Dashboard</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/react-templates/">React Themes</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vuejs Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/angular-templates/">Angular Themes</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/free-templates/">Freebies</a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/admin-dashboard-templates"><b>Dashboard Templates</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com"><b>Bootstrap Themes</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/bootstrap-templates"><b>Bootstrap Dashboard</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/react-templates"><b>React Themes</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/vue-templates"><b>Vuejs Templates</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/angular-templates"><b>Angular Themes</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/free-templates"><b>Freebies</b></a> from WrapPixel</li>
 </ul>
 
 <!-- Social Media of Wrappixel -->
